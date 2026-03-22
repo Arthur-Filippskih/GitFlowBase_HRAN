@@ -84,6 +84,13 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ЛеваяКолонкаРасширеннаяПодсказка" id="100"/>
 					<ChildItems>
+						<InputField name="Склад" id="5">
+							<DataPath>Объект.Склад</DataPath>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+							<Wrap>false</Wrap>
+							<ContextMenu name="СкладКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="СкладExtendedTooltip" id="60"/>
+						</InputField>
 						<InputField name="Номер" id="2">
 							<DataPath>Объект.Number</DataPath>
 							<SkipOnInput>true</SkipOnInput>
@@ -147,13 +154,6 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="Склад" id="5">
-							<DataPath>Объект.Склад</DataPath>
-							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
-							<Wrap>false</Wrap>
-							<ContextMenu name="СкладКонтекстноеМеню" id="28"/>
-							<ExtendedTooltip name="СкладExtendedTooltip" id="60"/>
-						</InputField>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ПраваяКолонка" id="101">
